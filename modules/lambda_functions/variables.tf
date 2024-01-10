@@ -22,7 +22,7 @@ variable "lambda_role_arn" {
 variable "lambda_runtime" {
   description = "Runtime for the Lambda functions"
   type        = string
-  default     = "python3.12.1"
+  default     = "python3.12"
 }
 
 variable "lambda_timeout" {

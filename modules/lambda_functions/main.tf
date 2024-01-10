@@ -6,7 +6,7 @@ resource "aws_lambda_function" "lambda_function" {
   runtime       = var.lambda_runtime
   handler       = each.value.handler
   timeout       = var.lambda_timeout
-  filename = "${path.module}/lambda_zipped/${each.key}.zip"
+  filename      = "${path.module}/../../lambda_zipped/${each.key}.zip"
 
   environment {
     variables = {
