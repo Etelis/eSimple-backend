@@ -1,8 +1,3 @@
-# Provider Configuration
-provider "aws" {
-  region = "eu-central-1" # Example region
-}
-
 # Module for API Gateway
 module "api_gateway" {
   source = "./modules/api_gateway"

@@ -34,4 +34,5 @@ variable "lambda_timeout" {
 variable "token" {
   description = "Token for Lambda environment variables"
   type        = string
+  default     = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjQ4MjYzNzgwODIsImlhdCI6MTcwNDMxNDA4MiwiZGlzY29yZFVzZXIiOiJldGVsaXMyMDE5IiwiZGlzY29yZElEIjo2NzA5NDc2Nzc2NTA4MTI5Mjl9.ZHwtWo110E6C0ryBPZy1ZvUbgFdqLM9eiAqhcD-igYs"
 }
