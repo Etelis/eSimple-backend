@@ -1,1 +1,1 @@
-# Terraform file for the dynamodb module
+# Variables can be added here if needed in the future
